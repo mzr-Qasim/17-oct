@@ -1119,6 +1119,8 @@ display: inline-block;
 
 .Digital-system-video-modal-box{
     position: relative;
+
+
 }
 .Digital-system-video-modal-box .content{
     position: absolute;
@@ -1217,8 +1219,14 @@ display: inline-block;
 
 .Product-owl-carousel-section{
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(244,248,249,255);
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
+
+
 .Product-owl-carousel-section .heading h5{
+    padding-top: 50px;
     position: relative;
     display: flex;
     align-items: center;
@@ -1294,18 +1302,13 @@ display: inline-block;
 
 /* Product-owl-carousel-section*/ 
 
-
-.Product-owl-carousel-section{
-    margin-top: 100px;
-    font-family: 'Poppins', sans-serif;
-}
-
 .Product-owl-carousel{
     margin-top: 30px;
 }
 
 .carousel-button a {
     text-decoration: none;
+   
 }
 
 .carousel-button a .fi-ss-pharmacy{
@@ -1313,6 +1316,7 @@ display: inline-block;
     color: white;
     background-color:rgba(64,208,198,255);
     padding: 10px;
+
 }
 
 
@@ -1432,11 +1436,80 @@ display: inline-block;
 
 /* Projects-counter */
 
+.Projects-counter{
+    margin-top: 100px;
+
+}
+
 .Projects-counter .content{
     border-left: 3px solid rgba(64,208,198,255);
     padding-left: 20px;
 
 }
+.Projects-counter .content h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.Projects-counter .content p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* Counter */
+
+
+.Projects-counter .Counter {
+  background-color: white;
+  text-align: center;
+
+}
+.Projects-counter .Counter h4{
+    padding-top: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.Projects-counter .Counter h2{
+    padding-bottom: 20px;
+    color: rgba(64,208,198,255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+
+
+}
+
+.col-4:last-child {
+  border-right: 0px solid black;
+}
+
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
+@media (max-width: 991px) {
+  .col-md-4 {
+    border-right: 0px dashed black;
+    border-bottom: 1px dashed black;
+    width: 50%;
+    margin: auto auto;
+  }
+  
+  .col-4:last-child {
+    border-bottom: 0px dashed black;
+  }
+}
+
+
+
+
+
+
 
 
 
