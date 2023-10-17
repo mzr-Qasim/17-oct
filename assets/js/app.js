@@ -103,6 +103,10 @@ jQuery(document).ready(function($) {
 
        
     var $owl = $('.owl-carousel6');
+    
+    $owl.children().each( function( index ) {
+      $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
+    });
     $owl.owlCarousel({
       responsive:{
         0:{
