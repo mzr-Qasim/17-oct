@@ -211,10 +211,12 @@ jQuery(document).ready(function($) {
             responsive:{
                 0:{items:1},
                 480:{items:2},
-                600:{items:3},
+                600:{items:2},
                 1000:{
                     items:3,
-                    autoplay:true
+                    autoplay:true,
+                    center:true,
+                    loop:true
                 }
             },
             smartSpeed:70,
