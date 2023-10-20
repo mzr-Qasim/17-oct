@@ -615,7 +615,7 @@ div.hero-section-1 .carousel-caption h5:after{
 /* Video Content Section */
 
 .Video-section .Video-section-inner-text{
-    border-bottom: 1px solid black;
+
 }
 .Video-section-inner-text .first-half-section .section-logo i.video-content-section-logo{
     margin-left: -180px;
@@ -652,58 +652,6 @@ div.hero-section-1 .carousel-caption h5:after{
 }
 
 
-.Video-section-inner-text .second-half-section{
-    font-family: 'Poppins', sans-serif;
-}
-.Video-section-inner-text .second-half-section .Section-image{
-    display: flex;
-}
-
-
-
-
-.Video-section-inner-text .second-half-section .Section-image img{
-    margin-top: 30px;
-
-
-}
-
-
-.Video-section-inner-text .second-half-section .section-image-content{
-    margin-top: 30px;
-    margin-left: 30px;
-
-}
-.Video-section-inner-text .second-half-section .section-image-content h4{
-    font-size: 25px;
-    font-weight: 700;
-    color: black;
-
-}
-
-
-
-
-
-
-.Video-section-inner-text .second-half-section .content{
-    margin-top: 15px;
-
-}
-.Video-section-inner-text .second-half-section .content p{
-    font-size: 15px;
-}
-.Video-section-inner-text .second-half-section .content p i{
-    font-size: 15px;
-    font-weight: 800;
-    margin-right: 10px;
-    color: rgba(64,208,198,255);
-}
-
-
-
-
-
 
 
 
@@ -719,17 +667,6 @@ div.hero-section-1 .carousel-caption h5:after{
 
 
 
-
-* {
- box-sizing: border-box;
-}
-
-body {
- font-family: "Poppins", sans-serif;
- color: #444;
- box-sizing: border-box;
- margin: 0px;
-}
 
 
 
