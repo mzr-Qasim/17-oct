@@ -214,6 +214,9 @@ jQuery(document).ready(function($) {
                 600:{items:1},
                 767:{items:1},
                 1000:{
+                    items:2,
+                },
+                1199:{
                     items:3,
                     autoplay:true,
                     center:true,
