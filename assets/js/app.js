@@ -12,7 +12,17 @@ let pauseButton = document.getElementById("pause_button");
 
 jQuery(document).ready(function($) {
 
-
+    choiceArray.forEach((card) => {
+        card.addEventListener("click", () => {
+            choiceArray.forEach((element) => {
+                element.classList.remove("expand", "unset")
+                element.classList.add('small')
+            })
+            card.classList.remove("small")
+            card.classList.add('expand')
+        });
+    });
+        
     
     
     
