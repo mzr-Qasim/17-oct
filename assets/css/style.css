@@ -292,7 +292,7 @@ div.hero-section-1 .carousel-caption h5:after{
 
 
 /* Accordion Owl Carousel*/ 
-.owl-item > div {
+.Contact-Owl-Carousel .owl-item > div {
     cursor: pointer;
     margin: 0 8%;
     padding: 10% 0;
@@ -2310,7 +2310,12 @@ display: inline-block;
         padding: 10px 5px;
         margin-left: 0;
     }
-    
+    .Contact-Owl-Carousel .owl-item > div {
+        padding: 1% 0;
+        border-bottom: 3px solid rgba(64,208,198,255);
+    }
+
+
 
     .News-letter .row h2{
         color: white;
