@@ -2,9 +2,20 @@
 
 
 
+
 .website-colors{
     --primary-color:#40d0c6;
 }
+
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+
+
+
+
 
 .navbar-nav{
     --bs-nav-link-padding-y: 0rem;
@@ -2069,6 +2080,7 @@ display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 35px;
+    
 
 }
 .News-letter .row .News-letter-entry{
@@ -2286,12 +2298,6 @@ display: inline-block;
         font-size: 35px;
     
     }
-    .News-letter .row .News-letter-entry{
-        display: flex;
-        align-items: center;
-    
-    }
-    
     .News-letter form input{
         width: 200px;
         height: 40px;
