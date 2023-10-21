@@ -2285,6 +2285,11 @@ display: inline-block;
 }
 @media screen and (max-width: 576px) {
  
+
+    .vertical.carousel .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+
     .About-Medical-World-Center-Section .card-content-2 h3{
         padding: 10px 5px;
         margin-left: 0;
@@ -2363,6 +2368,19 @@ display: inline-block;
     .About-Medical-World-Center-Section .card-content-2 h3{
         padding: 15px 5px;
         margin-left: -50px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 1330px) {
+
+    div.hero-section-1 .carousel-caption{
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        transform: translateY(-50%);
     }
 
     

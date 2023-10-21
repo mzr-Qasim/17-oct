@@ -209,12 +209,33 @@ jQuery(document).ready(function($) {
             slideBy:'page',
             rewind:false,
             responsive:{
-                0:{items:1},
-                480:{items:1},
-                600:{items:1},
-                767:{items:1},
+                0:{
+                    items:1,
+                    autoplay:true,
+                    loop:true,
+                    center:true
+                },
+                480:{
+                    items:1,
+                    autoplay:true,
+                    loop:true,
+                    center:true
+                },
+                600:{
+                    items:1,
+                    autoplay:true,
+                    loop:true,
+                    center:true
+                },
+                767:{
+                    items:2,
+                    autoplay:true,
+                    loop:true,
+                },
                 1000:{
                     items:2,
+                    autoplay:true,
+                    loop:true,
                 },
                 1199:{
                     items:3,
