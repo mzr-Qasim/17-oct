@@ -387,12 +387,17 @@ div.hero-section-1 .carousel-caption h5:after{
 .About-Medical-World-Center-Section .card-content-3{
     margin-top: 25px;
 }
-.About-Medical-World-Center-Section .card-content-3 h5{
+.About-Medical-World-Center-Section .card-content-3 .heading-1{
+    display: flex;
+    align-items: center;
+}
+.About-Medical-World-Center-Section .card-content-3 .heading-1 h5{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 600;
     font-style: italic;
-    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -524,6 +529,8 @@ div.hero-section-1 .carousel-caption h5:after{
 
 /* Cards-section */
 
+
+
 .card {
     border-radius: 0;
     border: none;
@@ -551,10 +558,17 @@ div.hero-section-1 .carousel-caption h5:after{
     color: rgba(64,208,198,255);
 }
 
-.Medical-services-cards-section .services-card-heading h5{
+.Medical-services-cards-section .services-card-heading .heading-1{
     padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Medical-services-cards-section .services-card-heading .heading-1 h5{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-weight: 700;
     font-style: italic;
 }
@@ -614,9 +628,11 @@ div.hero-section-1 .carousel-caption h5:after{
 
 /* Video Content Section */
 
-.Video-section .Video-section-inner-text{
-
+.Video-section{
+    margin-top: 100px;
 }
+
+
 .Video-section-inner-text .first-half-section .section-logo i.video-content-section-logo{
     margin-left: -180px;
     color: white;
@@ -629,11 +645,16 @@ div.hero-section-1 .carousel-caption h5:after{
 .Video-section-inner-text .first-half-section .content{
     font-family: 'Poppins', sans-serif;
 }
+.Video-section-inner-text .first-half-section .content .heading-1{
+    display: flex;
+    align-items: center;
+}
 .Video-section-inner-text .first-half-section .content h5{
-    margin-top: 25px;
     font-size: 20px;
     font-weight: 500;
     font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .Video-section-inner-text .first-half-section .content h2{
@@ -873,6 +894,44 @@ html:not(.playvideo) .sound-ctrl {
 
 
 /*  */
+
+.testimonials .Team-member-heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.testimonials .Team-member-heading .heading-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials .Team-member-heading .heading-1 h5{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    
+
+}
+.testimonials .Team-member-heading h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.testimonials .Team-member-heading h2 span{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(64,208,198,255);
+}
+
+
+
+
+
+
+
 
 
 .shadow-effect {
@@ -1990,9 +2049,11 @@ display: inline-block;
 .News-letter{
     background-color:rgba(64,208,198,255);
     border-radius: 50px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
@@ -2216,6 +2277,45 @@ display: inline-block;
         padding: 10px 5px;
         margin-left: 0;
     }
+    
+    
+    .News-letter .row h2{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+    
+    }
+    .News-letter .row .News-letter-entry{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .News-letter form input{
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        border: none;
+        padding-left: 20px;
+    
+    }
+
+    .News-letter .subscribe-button a{
+        font-size: 15px;
+        padding: 10px 15px;
+    
+    }
+    .News-letter .subscribe-button {
+        margin-left: -40px;
+    
+    
+    }
+
+
+
+
+
 
 
 
