@@ -2283,6 +2283,22 @@ display: inline-block;
 
 
 }
+@media screen and (max-width: 470px) {
+ 
+    .box-area .img-area {
+        margin: 0 auto;
+        top: 15px;
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+
+
+
+
+}
 @media screen and (max-width: 576px) {
  
 
@@ -2348,6 +2364,12 @@ display: inline-block;
     .Digital-system-video-modal-box-anchor-button a{ 
         display: none;
     }
+
+    .box-area .img-area {
+        margin: -8px auto;
+    }
+
+
 
 }
 
