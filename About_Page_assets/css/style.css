@@ -693,9 +693,8 @@ li.hamburger-icon{
 
 
 .Testimonial-Owl-Carousel .owl-item > div{
-    border: 0!important;
-    margin: 0!important;
-    padding: 10% 0 !important;
+    border: 0;
+
 }
 
 
@@ -742,6 +741,7 @@ li.hamburger-icon{
 
 .box-area .content {
 	color: #262626;
+    padding: 0 20px;
 }
 
 
@@ -752,7 +752,7 @@ li.hamburger-icon{
 	top: 10px;
 	left: 0;
 	bottom: 0;
-	margin: 0 auto;
+	margin: -50px auto;
 	right: 0;
 	z-index: 1;
 	border-radius: 50%;
@@ -802,12 +802,102 @@ li.hamburger-icon{
 
 
 
+/* Digital-system-video-modal-box */
+
+
+.Digital-system-video-modal-box{
+    position: relative;
+
+
+}
+.Digital-system-video-modal-box .content{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+.Digital-system-video-modal-box .thumbnail-img{
+    
+    background:rgba(7,30,64,255);
+    border-radius: 30px;
+}
+
+.Digital-system-video-modal-box .thumbnail-img img{
+
+
+    opacity: .2;
+    border-radius: 30px;
+}
+
+.Digital-system-video-modal-box .content .video-button a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top:-30%;
+    transform: translate(-50%,-50%);
+    
+
+
+
+}
+
+.Digital-system-video-modal-box .content .video-button a i{
+    font-size: 70px;
+    color: white;
+
+
+
+
+}
+
+.Digital-system-video-modal-box .content .video-button a i:hover{
+    color: black;
+
+
+
+
+}
+
+
+
+.Digital-system-video-modal-box .content h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+
+}
+
+
+.Digital-system-video-modal-box .content p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+
+}
 
 
 
 
 
 
+
+
+
+.Digital-system-video-modal-box-anchor-button{
+    margin-top: 50px;
+}
+.Digital-system-video-modal-box-anchor-button a{ 
+    text-decoration: none;
+    color: white;
+    background-color: rgba(64,208,198,255) ;
+    border: 10px solid  rgba(64,208,198,255);
+    border-radius: 40px;
+    padding:0 15px;
+}
 
 
 
