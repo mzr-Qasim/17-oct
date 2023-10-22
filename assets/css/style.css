@@ -2057,6 +2057,10 @@ display: inline-block;
 
 /*  */
 
+.News-letter-section{
+    margin-top: 50px;
+}
+
 .News-letter{
     background-color:rgba(64,208,198,255);
     border-radius: 50px;
