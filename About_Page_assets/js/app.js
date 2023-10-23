@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
         margin: 30,
         dots: true,
         responsive:{
-            319:{
+            0:{
                 items:1
             },
             767:{
