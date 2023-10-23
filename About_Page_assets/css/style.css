@@ -1065,9 +1065,16 @@ li.hamburger-icon{
     transition: margin 0.4s ease;
     border-bottom: 3px solid rgba(64,208,198,255);
 }
+.Contact-Owl-Carousel .owl-item > div a{
+    display: flex;
+    color: black;
+}
+.Contact-Owl-Carousel .owl-item > div a i{
+    color: black;
+}
 
 .owl-item.center > div {
-    cursor: auto;
+    cursor: pointer;
     margin: 0;
     background-color:  rgba(64,208,198,255);
     color: white;
@@ -1078,7 +1085,10 @@ li.hamburger-icon{
     color: white;
 }
 
-.owl-item.center > div i {
+.owl-item.center > div a i {
+    color: white;
+}
+.owl-item.center > div .owl-carousel-icon i {
     color: white;
 }
 
