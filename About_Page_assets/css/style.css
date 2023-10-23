@@ -382,8 +382,15 @@ li.hamburger-icon{
     color: rgba(64,208,198,255);
 }
 
-.Medical-services-cards-section .services-card-heading h5{
+.Medical-services-cards-section .services-card-heading .heading-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 50px;
+}
+.Medical-services-cards-section .services-card-heading h5{
+    margin-left: 10px;
+    margin-right: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -556,34 +563,34 @@ li.hamburger-icon{
 
 
 /* Accordion Owl Carousel*/ 
-.owl-item > div {
+.Product-owl-carousel .owl-item > div {
     cursor: pointer;
     margin: 0;
     padding: 0;
     transition: margin 0.4s ease;
 }
-.owl-item > div a {
+.Product-owl-carousel .owl-item > div a {
     display: none;
 }
-.owl-item > div .carousel-content{
+.Product-owl-carousel .owl-item > div .carousel-content{
     display: none;
 }
 
-.owl-item.center > div {
+.Product-owl-carousel .owl-item.center > div {
     cursor: pointer;
     margin: 0;
     position: relative;
-    background: blue;
+    background:rgba(7,30,64,255);
 
 
 }
-.owl-item.center > div img{
-    opacity: .8;
+.Product-owl-carousel .owl-item.center > div img{
+    opacity: 0.2;
 
 }
 
 
-.owl-item.center > div .carousel-button a {
+.Product-owl-carousel .owl-item.center > div .carousel-button a {
     display: block;
     position: absolute;
     top: 20%;
@@ -592,7 +599,7 @@ li.hamburger-icon{
 }
 
 
-.owl-item.center > div .carousel-button a .fi-ss-pharmacy:hover {
+.Product-owl-carousel .owl-item.center > div .carousel-button a .fi-ss-pharmacy:hover {
     color:rgba(64,208,198,255);
     background-color: black;
 }
@@ -600,7 +607,7 @@ li.hamburger-icon{
 
 
 
-.owl-item.center > div .carousel-content{
+.Product-owl-carousel .owl-item.center > div .carousel-content{
     display: block;
     position: absolute;
     top: 70%;
@@ -611,18 +618,18 @@ li.hamburger-icon{
 
 
  
-.owl-item:not(.center) > div:hover {
+.Product-owl-carousel .owl-item:not(.center) > div:hover {
     opacity: .75;
 
     
 }
 
-.owl-nav{
+.Product-owl-carousel .owl-nav{
     display: flex;
     justify-content: center;
 }
 
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+.Product-owl-carousel .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
     margin: 0 30px;
     font-size: 30px;
 }
@@ -913,6 +920,7 @@ li.hamburger-icon{
 
 .Blog-news-section{
     margin-top: 100px;
+    margin-bottom: 50px;
 
 }
 .Blog-news-section .heading-blog-1{

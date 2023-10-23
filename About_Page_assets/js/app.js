@@ -13,6 +13,16 @@ let pauseButton = document.getElementById("pause_button");
 jQuery(document).ready(function($) {
 
 
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+      });
+      $('.counter').addClass('animated fadeInDownBig');
+      $('h3').addClass('animated fadeIn');
+
+
+
+
     var $owl = $('.product-owl-carousel-about-page');
     
     $owl.children().each( function( index ) {
