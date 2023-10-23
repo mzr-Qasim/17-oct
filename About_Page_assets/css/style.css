@@ -1309,10 +1309,33 @@ li.hamburger-icon{
 
 
 
+/*  */
 
 
+@media screen and (max-width: 767px) {
 
 
+    .Digital-system-video-modal-box .content .video-button a{
+        text-decoration: none;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    
+    
+    }
+    .Digital-system-video-modal-box .content .video-button a i{
+        font-size: 40px;
+        color: white; 
+    
+    }
+    
+    .Digital-system-video-modal-box-anchor-button a{ 
+        display: none;
+    }
+
+}
 
 @media screen and (max-width: 992px) {
  
@@ -1339,6 +1362,28 @@ li.hamburger-icon{
     }
   
     
+}
+
+@media screen and (max-width: 1199px) {
+    .Digital-system-video-modal-box .content{
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .Digital-system-video-modal-box .content h2{
+        display: none
+
+    }
+
+
+    .Digital-system-video-modal-box .content p{
+        display: none;
+
+    }
+
 }
 
 
