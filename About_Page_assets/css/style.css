@@ -1356,12 +1356,15 @@ li.hamburger-icon{
         border: 3px solid white;
         background-color: rgba(64,208,198,255);
         border-radius: 25px;
-        color: white;
-        
-    
+        color: white;  
     }
-  
-    
+    .material-symbols-outlined{
+        border: none;
+    }
+    nav.headline-nav a.set-border{
+        border: none;
+    }
+   
 }
 
 @media screen and (max-width: 1199px) {
