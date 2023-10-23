@@ -37,13 +37,14 @@ jQuery(document).ready(function($) {
             nav:true,
             loop:true,
             dots:false,
+            autoplay:true
         },
         600:{
             items:2,
             nav:true,
             loop:true,
             dots:true,
-            center:true,
+            center:false,
             autoplay:true
         },
         831:{
@@ -184,11 +185,11 @@ jQuery(document).ready(function($) {
             nav:true,
             loop:true,
             dots:false,
+            autoplay:true,
         },
         600:{
             items:2,
             nav:true,
-            loop:false,
             dots:true,
         },
         1000:{

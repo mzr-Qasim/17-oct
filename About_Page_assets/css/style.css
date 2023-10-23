@@ -1312,7 +1312,32 @@ li.hamburger-icon{
 /*  */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
+
+    .main-hero-section .Main-hero-section-content{
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%,-50%);
+    }
+    .main-hero-section .Main-hero-section-content h2{
+        font-size: 30px;
+    }
+    .main-hero-section .Main-hero-section-content h5{
+        font-size: 15px;
+    }
+
 
 
     .Digital-system-video-modal-box .content .video-button a{
