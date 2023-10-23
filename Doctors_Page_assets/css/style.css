@@ -130,11 +130,12 @@ li.hamburger-icon{
 
 
 /* Main Hero Section */
-
-
 .main-hero-section{
     position: relative;
 }
+
+
+
 
 .main-hero-section .Main-hero-section-content{
     color: white;
@@ -160,3 +161,102 @@ li.hamburger-icon{
 
 /* Team Member Cards */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+
+
+@media screen and (min-width: 350px) {
+    .main-hero-section .Main-hero-section-content{
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 25.2%;
+        transform: translate(-50%,-50%);
+    }
+
+    
+
+}
+
+@media screen and (max-width: 370px) {
+    .main-hero-section .Main-hero-section-content{
+        color: white;
+        position: absolute;
+        top: 50%;
+        right: 20%;
+        transform: translate(-50%,-50%);
+    }
+    .main-hero-section .Main-hero-section-content h2{
+        font-size: 20px;
+    }
+    .main-hero-section .Main-hero-section-content h5{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    
+
+}
+@media screen and (max-width: 620px) {
+    .main-hero-section .Main-hero-section-content{
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%,-50%);
+    }
+    .main-hero-section .Main-hero-section-content h2{
+        font-size: 35px;
+    }
+    .main-hero-section .Main-hero-section-content h5{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    
+
+}
+@media screen and (max-width: 760px) {
+    .main-hero-section .Main-hero-section-content{
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%,-50%);
+    }
+
+
+    
+
+}
+@media screen and (max-width: 991px) {
+    nav.headline-nav a.set-border{
+        border: none;
+       
+    }
+    
+
+
+    
+
+}
