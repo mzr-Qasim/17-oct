@@ -2390,6 +2390,9 @@ display: inline-block;
         background-color: rgba(244,248,249,255);
         border-radius: 10px;
     }
+    .Video-section-inner-text .first-half-section .content{
+        margin-top: 50px;
+    }
 
 }
 
