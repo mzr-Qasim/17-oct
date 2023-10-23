@@ -2380,6 +2380,10 @@ display: inline-block;
         margin: -25px auto;
     }
 
+    .Form-section{
+        margin-top: 0;
+    }
+
 }
 
 
@@ -2397,6 +2401,8 @@ display: inline-block;
     .Contact-section-background{
         background-image: url('../images/Media-Query-Contact-section.jpg');
     }
+
+
 
 }
 
