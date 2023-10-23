@@ -2322,6 +2322,7 @@ display: inline-block;
 
 
 
+
     .News-letter .row h2{
         color: white;
         font-family: 'Poppins', sans-serif;
@@ -2392,6 +2393,9 @@ display: inline-block;
     }
     .Video-section-inner-text .first-half-section .content{
         margin-top: 50px;
+    }
+    .Contact-section-background{
+        background-image: url('../images/Media-Query-Contact-section.jpg');
     }
 
 }
