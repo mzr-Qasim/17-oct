@@ -1317,6 +1317,17 @@ li.hamburger-icon{
 
 
 
+@media screen and (max-width: 366px) {
+ 
+    nav.headline-nav a.news-headline-nav{
+        display: none;
+    }
+
+
+
+
+
+}
 
 
 

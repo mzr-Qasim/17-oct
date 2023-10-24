@@ -622,6 +622,25 @@ display: inline-block;
 
 }
 
+@media screen and (max-width: 366px) {
+ 
+    nav.headline-nav a.news-headline-nav{
+        display: none;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 370px) {
     .main-hero-section .Main-hero-section-content{
         color: white;
