@@ -161,6 +161,18 @@ li.hamburger-icon{
 
 /* Team Member Cards */
 
+
+.fi-ss-circle{
+    font-size: 10px;
+    color:rgba(64,208,198,255);;
+}
+
+
+
+
+
+
+
 .testimonials .Team-member-heading{
     text-align: center;
     margin-top: 100px;
@@ -665,6 +677,9 @@ display: inline-block;
     nav.headline-nav a.set-border{
         border: none;
        
+    }
+    .material-symbols-outlined{
+        border: none;
     }
     
 
