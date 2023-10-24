@@ -47,6 +47,7 @@ jQuery(document).ready(function($) {
             nav:true,
             loop:true,
             dots:false,
+            autoplay:true,
         },
         600:{
             items:2,
@@ -118,7 +119,7 @@ jQuery(document).ready(function($) {
             autoplay:true
         },
         600:{
-            items:2,
+            items:3,
             nav:true,
             loop:true,
             dots:true,

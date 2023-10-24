@@ -40,11 +40,11 @@ jQuery(document).ready(function($) {
             autoplay:true
         },
         600:{
-            items:2,
+            items:3,
             nav:true,
             loop:true,
             dots:true,
-            center:false,
+            center:true,
             autoplay:true
         },
         831:{
