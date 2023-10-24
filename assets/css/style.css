@@ -2328,22 +2328,7 @@ display: inline-block;
 
 
 }
-@media screen and (max-width: 470px) {
- 
-    .box-area .img-area {
-        margin: 0 auto;
-        top: 15px;
-        width: 60px;
-        height: 60px;
-    }
 
-
-
-
-
-
-
-}
 @media screen and (max-width: 576px) {
  
 
@@ -2416,9 +2401,6 @@ display: inline-block;
         display: none;
     }
 
-    .box-area .img-area {
-        margin: -25px auto;
-    }
 
     .Form-section{
         margin-top: 0;
@@ -2475,9 +2457,6 @@ display: inline-block;
     .Digital-system-video-modal-box .content p{
         display: none;
 
-    }
-    .box-area .img-area {
-        margin: -50px auto;
     }
 
 
